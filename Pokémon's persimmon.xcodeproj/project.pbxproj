@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7056E564247F83FD00D1578E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056E563247F83FD00D1578E /* AppDelegate.swift */; };
 		7056E566247F83FD00D1578E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056E565247F83FD00D1578E /* SceneDelegate.swift */; };
-		7056E568247F83FD00D1578E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056E567247F83FD00D1578E /* ViewController.swift */; };
 		7056E56B247F83FD00D1578E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7056E569247F83FD00D1578E /* Main.storyboard */; };
 		7056E56D247F83FE00D1578E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7056E56C247F83FE00D1578E /* Assets.xcassets */; };
 		7056E570247F83FE00D1578E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7056E56E247F83FE00D1578E /* LaunchScreen.storyboard */; };
@@ -20,7 +19,6 @@
 		7056E560247F83FD00D1578E /* Pokémon's persimmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokémon's persimmon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7056E563247F83FD00D1578E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7056E565247F83FD00D1578E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7056E567247F83FD00D1578E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7056E56A247F83FD00D1578E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7056E56C247F83FE00D1578E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7056E56F247F83FE00D1578E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				7056E577247F840600D1578E /* View */,
 				7056E563247F83FD00D1578E /* AppDelegate.swift */,
 				7056E565247F83FD00D1578E /* SceneDelegate.swift */,
-				7056E567247F83FD00D1578E /* ViewController.swift */,
 				7056E569247F83FD00D1578E /* Main.storyboard */,
 				7056E56C247F83FE00D1578E /* Assets.xcassets */,
 				7056E56E247F83FE00D1578E /* LaunchScreen.storyboard */,
@@ -181,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7056E568247F83FD00D1578E /* ViewController.swift in Sources */,
 				7056E564247F83FD00D1578E /* AppDelegate.swift in Sources */,
 				7056E57D247F843700D1578E /* PockeDexController.swift in Sources */,
 				7056E566247F83FD00D1578E /* SceneDelegate.swift in Sources */,
