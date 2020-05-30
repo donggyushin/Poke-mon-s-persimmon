@@ -12,6 +12,7 @@ let reuseableIdentifier = "pockeDex"
 
 class PockeDexController:UICollectionViewController {
     // MARK: - properties
+    let pokemonService = PokemonService()
     
     // MARK: - Init
     override func viewDidLoad() {
@@ -19,7 +20,7 @@ class PockeDexController:UICollectionViewController {
         
         
         configureViewComponents()
-        
+        fetchPokemons()
         
     }
     
@@ -46,6 +47,11 @@ class PockeDexController:UICollectionViewController {
     }
     
     // MARK: - Helper functions
+    
+    func fetchPokemons(){
+        pokemonService.fetchPokemons()
+    }
+    
     func configureViewComponents(){
         collectionView.backgroundColor = .systemBackground
         navigationController?.navigationBar.barTintColor = UIColor.mainColor

@@ -15,6 +15,8 @@
 		7056E57D247F843700D1578E /* PockeDexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056E57C247F843700D1578E /* PockeDexController.swift */; };
 		707DE40D2480D1CD0027FA7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DE40C2480D1CD0027FA7D /* Extensions.swift */; };
 		707DE40F2480D79A0027FA7D /* PockedexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DE40E2480D79A0027FA7D /* PockedexCell.swift */; };
+		70F307B524821964003E9945 /* PocketMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F307B424821964003E9945 /* PocketMon.swift */; };
+		70F307B72482284D003E9945 /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F307B62482284D003E9945 /* PokemonService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7056E57C247F843700D1578E /* PockeDexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockeDexController.swift; sourceTree = "<group>"; };
 		707DE40C2480D1CD0027FA7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		707DE40E2480D79A0027FA7D /* PockedexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockedexCell.swift; sourceTree = "<group>"; };
+		70F307B424821964003E9945 /* PocketMon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMon.swift; sourceTree = "<group>"; };
+		70F307B62482284D003E9945 /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		7056E578247F840A00D1578E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				70F307B424821964003E9945 /* PocketMon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		7056E579247F840E00D1578E /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				70F307B62482284D003E9945 /* PokemonService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -186,7 +192,9 @@
 			files = (
 				7056E564247F83FD00D1578E /* AppDelegate.swift in Sources */,
 				7056E57D247F843700D1578E /* PockeDexController.swift in Sources */,
+				70F307B524821964003E9945 /* PocketMon.swift in Sources */,
 				707DE40F2480D79A0027FA7D /* PockedexCell.swift in Sources */,
+				70F307B72482284D003E9945 /* PokemonService.swift in Sources */,
 				7056E566247F83FD00D1578E /* SceneDelegate.swift in Sources */,
 				707DE40D2480D1CD0027FA7D /* Extensions.swift in Sources */,
 			);
